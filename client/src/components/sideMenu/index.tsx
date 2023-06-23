@@ -48,6 +48,8 @@ export default function SideMenu({
       )}
 
       <div className="mt-2 flex justify-between items-center">
+ 
+        <Space>
 
           <Button icon={<SettingOutlined />} onClick={onOpenSetting}></Button>
         </Space>
