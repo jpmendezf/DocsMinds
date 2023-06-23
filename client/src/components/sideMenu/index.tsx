@@ -39,12 +39,7 @@ export default function SideMenu({
           type="warning"
           description={
             <>
-              The upload is not available on the current website. You can
-              <a href="https://github.com/3Alan/DocsMind" target="__blank">
-                {' '}
-                fork and clone the project{' '}
-              </a>
-              to your local device to complete the upload.
+
             </>
           }
         />
@@ -53,14 +48,7 @@ export default function SideMenu({
       )}
 
       <div className="mt-2 flex justify-between items-center">
-        <span className="text-xs text-gray-500">Made by Alan</span>
 
-        <Space>
-          <Button
-            href="https://github.com/3Alan/DocsMind"
-            target="__blank"
-            icon={<GithubOutlined />}
-          ></Button>
           <Button icon={<SettingOutlined />} onClick={onOpenSetting}></Button>
         </Space>
       </div>
